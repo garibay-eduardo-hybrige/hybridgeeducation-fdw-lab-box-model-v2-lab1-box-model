@@ -1,2 +1,26 @@
-/* Agrega tus estilos aquí */
-/* Debes crear una clase llamada mi-div */
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Div con estilos</title>
+	<!-- Importar el archivo estilos.css -->
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<!-- Div requerido -->
+	<div class="mi-div">Contenido del div</div>
+
+	<!-- Contenido sugerido para estilos.css (copiar en un archivo llamado estilos.css en el mismo directorio) -->
+	<!--
+	.mi-div {
+		width: 300px;
+		height: 200px;
+		padding: 20px;
+		margin: 30px;
+		border: 10px solid blue;
+		box-sizing: border-box; /* asegura que padding y border estén dentro del tamaño total */
+	}
+	-->
+</body>
+</html>
